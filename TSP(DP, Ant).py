@@ -18,6 +18,7 @@ def Graph(n):
     return matrix
 
 #dynamic programming
+#參考網站：https://github.com/phvargas/TSP-python/blob/master/TSP.py
 import copy
 def TSP_DP(matrix, n):
     g = {}
@@ -50,7 +51,7 @@ def get_minimum(k, a, g, p):
     return g[k, a]
 
 #ant algorithm
-#https://medium.com/qiubingcheng/以python實作蟻群最佳化演算法-ant-colony-optimization-aco-並解決tsp問題-上-b8c1a345c5a1
+#參考網站：https://medium.com/qiubingcheng/以python實作蟻群最佳化演算法-ant-colony-optimization-aco-並解決tsp問題-上-b8c1a345c5a1
 import numpy as np
 import sys
 
